@@ -5,7 +5,7 @@ The following upfront criteria were used to select the candidates:
 
 1] Pure Python
 2] Works on Python 2.6 - 3.3
-3] Uses a straighforward and well-understood parser type (this is of
+3] Uses a straightforward and well-understood parser type (this is of
    course subjective)
 4] Maintained somewhat currently - it should have a somewhat
    obvious and active community around it (again, subjective)
