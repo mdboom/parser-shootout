@@ -1,0 +1,38 @@
+This is a benchmark of some of the available Python parser tools as of
+May 2013.
+
+The following upfront criteria were used to select the candidates:
+
+1] Pure Python
+2] Works on Python 2.6 - 3.3
+3] Uses a straighforward and well-understood parser type (this is of
+   course subjective)
+4] Maintained somewhat currently - it should have a somewhat
+   obvious and active community around it (again, subjective)
+5] Is licensing compatible to be distributed with astropy
+
+Tools tested:
+
+- pyparsing
+- PLY
+
+Tools on the short list to try next:
+
+- parsing
+
+Tools ruled out because they didn't meet the above criteria:
+
+- PyPEG (no Python 2.6 support)
+- Parsely (no Python 3.x support)
+- YAPPS (no Python 3.x support)
+- ANTLR (requires running a Java-based preprocessing step)
+- aperiot (no Python 2.6 support)
+- pydsl (GPL'd, no Python 2.6 support)
+- lepl (self-declared unsupported)
+- Rparse (GPL)
+- CodeTalker (Cython-based, no Python 3.x support)
+
+For a good resource of parsers, see:
+
+http://wiki.python.org/moin/LanguageParsing
+http://nedbatchelder.com/text/python-parsers.html
