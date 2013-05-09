@@ -183,7 +183,7 @@ class _AngleParser(object):
     @classmethod
     def _parse_simple(cls, s, loc, toks):
         if len(toks) == 2:
-            return toks[0], u.Unit(toks[1])
+            return toks[0], toks[1]
         else:
             return toks[0], None
 
